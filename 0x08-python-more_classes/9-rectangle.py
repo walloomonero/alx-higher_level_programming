@@ -1,16 +1,16 @@
 #!/usr/bin/python3
 """Defines a Rectangle class."""
 
-    class Rectangle:
-    """
-    A class to represent a rectangle.
+class Rectangle:
+        """
+        A class to represent a rectangle.
 
-    Attributes:
-        width (int): Width of the rectangle.
-        height (int): Height of the rectangle.
-        number_of_instances (int): The number of Rectangle instances.
-        print_symbol (any): The symbol used for string representation.
-    """
+        Attributes:
+            width (int): Width of the rectangle.
+            height (int): Height of the rectangle.
+            number_of_instances (int): The number of Rectangle instances.
+            print_symbol (any): The symbol used for string representation.
+        """
 
     number_of_instances = 0
     print_symbol = "#"
