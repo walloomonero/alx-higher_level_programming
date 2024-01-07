@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Defines a Rectangle class."""
 
+
 class Rectangle:
     """
     A class to represent a rectangle.
@@ -23,7 +24,7 @@ class Rectangle:
     @property
     def width(self):
         """Set the width of the Rectangle."""
-        return self.__width
+        return (self.__width)
 
     @width.setter
     def width(self, value):
@@ -36,7 +37,7 @@ class Rectangle:
     @property
     def height(self):
         """Set the height of the Rectangle."""
-        return self.__height
+        return (self.__height)
 
     @height.setter
     def height(self, value):
@@ -81,7 +82,7 @@ class Rectangle:
         return ("".join(rectang))
 
     def __repr__(self):
-        """Return a string representation that can be used to recreate a new instance."""
+        """Return a string representation to recreate a new instance."""
         rectang = "Rectangle(" + str(self.__width)
         rectang += ", " + str(self.__height) + ")"
         return (rectang)
