@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-
-from curses.textpad import rectangle
-
+"""Defines a Rectangle class."""
 
 class Rectangle:
     """
