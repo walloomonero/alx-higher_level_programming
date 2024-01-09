@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """Defines a script that reads stdin line by line and computes metrics.
 
-Each 10 lines and after a keyboard interruption (CTRL + C), 
+Each 10 lines and after a keyboard interruption (CTRL + C),
 prints those statistics since the beginning:
     - Total file size: File size: <total size>.
     - where is the sum of all previous.
